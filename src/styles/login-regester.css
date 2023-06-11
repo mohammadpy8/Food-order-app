@@ -1,0 +1,10 @@
+.m-auto a{
+    text-decoration: none;
+    color: #212245;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.m-auto a:hover {
+    color: #191ebd;
+}

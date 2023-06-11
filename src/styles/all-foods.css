@@ -1,0 +1,39 @@
+
+.search__widegt, .sorting__widget select {
+    padding: 7px 15px; 
+    border: 1px solid #fde4e4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sorting__widget select {
+    background:transparent;
+    height: 40px;
+}
+
+.search__widegt input{
+    border: none;
+}
+
+.search__widegt input:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .search__widegt{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .search__widegt input {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .sorting__widget select {
+        width: 100% !important;
+        font-size: 0.8rem;
+        height: 40px;
+    }
+}
